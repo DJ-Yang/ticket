@@ -1,0 +1,86 @@
+[
+  {
+    "model": "event.book",
+    "pk": 1,
+    "fields": {
+      "title": "Book1"
+    }
+  },
+  {
+    "model": "event.book",
+    "pk": 2,
+    "fields": {
+      "title": "Book2"
+    }
+  },
+  {
+    "model": "event.book",
+    "pk": 3,
+    "fields": {
+      "title": "Book3"
+    }
+  },
+  {
+    "model": "event.book",
+    "pk": 4,
+    "fields": {
+      "title": "Book4"
+    }
+  },
+  {
+    "model": "event.book",
+    "pk": 5,
+    "fields": {
+      "title": "Book5"
+    }
+  },
+  {
+    "model": "event.coupon",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+	    "number": "coupon01",
+	    "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "event.coupon",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+	    "number": "coupon02",
+      "quantity": 99999,
+	    "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "event.coupon",
+    "pk": 3,
+    "fields": {
+      "book": 3,
+	    "number": "coupon03",
+      "quantity": 1,
+	    "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "event.coupon",
+    "pk": 4,
+    "fields": {
+      "book": 4,
+	    "number": "coupon04",
+      "quantity": 50000,
+	    "status": "ACTIVE"
+    }
+  },
+  {
+    "model": "event.coupon",
+    "pk": 5,
+    "fields": {
+      "book": 5,
+	    "number": "coupon05",
+      "quantity": 0,
+	    "status": "ACTIVE"
+    }
+  }
+]
